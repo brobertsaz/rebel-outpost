@@ -1,0 +1,38 @@
+%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js", :type => "text/javascript"}
+%script{:src => "http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js", :type => "text/javascript"}
+#toppanel
+  #panel
+    .content.clearfix
+    %br
+      %form#web_form.web_form.form-inline{"accept-charset" => "UTF-8", :action => "http://rocrm.herokuapp.com/generate", :method => "post", :name => "web_form"}
+        %input{:name => "utf8", :type => "hidden", :value => "✓"}
+        %input{:name => "authenticity_token", :type => "hidden", :value => "tazmRebaWXQGK4rnjCypMD9ZtH08CLfSsrwqt+tkHSI="}
+        %input#lead_owner{:name => "lead_owner", :type => "hidden", :value => "U2FsdGVkX1+OP4sjsuCWHKVQ9+Z3D8gr4RWXtyz+sf5MEUl5Ry+tQ7x89+Lz\r\nzfEK\r\n"}
+        %input#params{:name => "params", :type => "hidden", :value => "first_name last_name email phone"}
+        %input#redirect_url{:name => "redirect_url", :type => "hidden", :value => "http://www.rebel-outpost.com/thank_you"}
+        %label{:for => "first_name"} First name &#42;
+        %input#first_name.required{:name => "first_name", :type => "text", :value => ""}
+        %label{:for => "last_name"} Last name &#42;
+        %input#last_name.required{:name => "last_name", :type => "text", :value => ""}
+        %label{:for => "email"} Email &#42;
+        %input#email.email{:name => "email", :type => "text", :value => ""}
+        %label{:for => "phone"} Phone &#42;
+        %input#phone.required{:name => "phone", :type => "text", :value => ""}
+        %input.btn.btn-primary{:name => "commit", :type => "submit", :value => "Submit"}
+      %p
+        For faster response, please contact us at (480) 251-5162, or
+        %a{href: 'mailto:bob@rebel-outpost.com'}>
+          email us.
+
+  .slide-tab
+    #connect-page-width
+      %ul.connect
+        %li.left
+        %li#toggle
+          %a#open{:href => "#"} Contact Us
+          %a#close{:href => "#", :style => "display: none;"} Close
+        %li.right
+
+
+:javascript
+  $("#web_form").validate();

@@ -1,0 +1,41 @@
+!!! 5
+%html
+  %head
+    %title
+      #{yield (:title)} | Rebel Outpost | Glendale, AZ
+    %meta(name="description" content="Phoenix based Rebel Outpost provides Ruby on Rails web application development")
+    %meta(name="keywords" content="Ruby on Rails, Web Development, Web Application, Web Design, Ruby, Rails, Phoenix, Arizona, Web Applications, Agile, SCRUM")
+    = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+    = analytics_init if Rails.env.production?
+  %body
+    = render 'layouts/connect_top_panel'
+    #header
+      #logo
+        = link_to image_tag('ro_logo.png'), root_path
+        %h2 Web Development Done Right
+      #menu
+        %ul
+          %li
+            = link_to 'Home', :home
+          %li
+            = link_to 'Services', :services
+          %li
+            = link_to 'Process', :process
+
+
+    = render 'layouts/social'
+    #content
+      .inner_copy
+        = yield
+    %br
+    #footer
+      .center
+        %p
+          Rebel Outpost, LLC &copy; 2012 &nbsp &nbsp &nbsp | &nbsp &nbsp &nbsp Tel: (480) 251-5162 &nbsp &nbsp &nbsp | &nbsp &nbsp &nbsp Glendale, AZ
+
+
+
+
+
