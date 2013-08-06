@@ -23,11 +23,12 @@ gem 'simple_form'
 gem 'twitter-bootstrap-rails'
 gem 'google-analytics-rails'
 gem 'tinymce-rails'
-gem 'rails_12factor'
+
 
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
 gem 'bson_ext'
 
 group :production do
   gem 'thin'
+  gem 'rails_12factor'
 end
