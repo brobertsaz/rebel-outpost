@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 gem 'rails', '4.0.0'
+gem 'sqlite3'
 
 group :assets do
   gem 'sass-rails'
@@ -23,3 +24,7 @@ gem 'simple_form'
 gem 'twitter-bootstrap-rails'
 gem 'google-analytics-rails'
 gem 'tinymce-rails'
+gem 'rails_12factor'
+
+gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
+gem 'bson_ext'
