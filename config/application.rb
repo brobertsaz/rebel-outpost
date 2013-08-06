@@ -19,6 +19,8 @@ module RebelOutpost
 
     config.encoding = "utf-8"
 
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
