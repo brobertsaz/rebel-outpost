@@ -16,15 +16,14 @@ test:
       options:
         consistency: :strong
 
-#mongodb://heroku_app6042021:vmnlajldupvpc6brhl58b6as90@ds039027.mongolab.com:39027/heroku_app6042021
-# MONGOLAB_URI: mongodb://heroku_app6042021:vt4e997vlui7udaohkpc3fljdo@ds037758.mongolab.com:37758/heroku_app6042021
+#MONGOLAB_URI: mongodb://heroku_app17339251:c2nc45cn9stlh0b9dc05fpqd7j@ds037468.mongolab.com:37468/heroku_app17339251
 production:
   sessions:
     default:
-      database: heroku_app6042021
-      username: heroku_app6042021
-      password: vt4e997vlui7udaohkpc3fljdo
+      database: heroku_app17339251
+      username: heroku_app17339251
+      password: c2nc45cn9stlh0b9dc05fpqd7j
       hosts:
-        - ds039027.mongolab.com:39027
+        - ds037468.mongolab.com:37468
       options:
         consistency: :strong
