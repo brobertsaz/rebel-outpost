@@ -27,3 +27,5 @@ gem 'rails_12factor'
 
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
 gem 'bson_ext'
+
+gem 'thin'
