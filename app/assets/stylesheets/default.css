@@ -1,22 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-body {margin:0;padding:0;background:#fff url(img1.gif) repeat-x;font:large normal small 'Roboto',Arial,Helvetica,sans-serif;color:#444}
+body {margin:0;padding:0;background:#e2e2e2 url(Minimalist-Wall.jpg) repeat center center fixed;font:large normal small 'Roboto',Arial,Helvetica,sans-serif;color:#222}
 a {color:#F70619}
-a:hover {text-decoration:none;color:#333}
+a:hover {text-decoration:none;color:#333;}
 h1, h2 {color: #333; font-family: 'Roboto'; font-size: 24px; text-align: center;}
 p {font-size: 115%;text-align:left; line-height: 30px;}
 /* Header */
-#header {width:990px;height:203px;margin:0 auto}
+#header {width:100%;height:120px;margin:0 auto;background: url(img1.gif) repeat-x;}
 /* Logo */
-#logo {float:left; padding-top: 55px;}
+#logo {position:absolute;left:300px;padding-top: 27px;}
 #logo * {margin:0;padding:0;text-transform:lowercase;color:#fff}
 #logo h1 {padding:100px 0 0 0;letter-spacing:-3px;font-size:46px; font-family: 'Roboto'}
 #logo h2 {letter-spacing:1px;font-size:18px; font-family: 'Roboto'}
 /* Menu */
-#menu {float:right; margin-top: 16px;}
+#menu {position: absolute; margin-top: -73px;right: 312px;}
 #menu ul {margin:0;padding:154px 0 0 0;list-style:none}
 #menu li {display:inline}
-#menu a {color: #fff; display:block;float:left;padding:5px 16px;text-decoration:none;font-size:18px;font-weight:bold; font-family: 'Roboto'}
-#menu a:hover, #menu .active a {color: #111;}
+#menu a {color: #fff;opacity: 0.9;display:block;float:left;padding:5px 16px;text-decoration:none;font-size:18px;font-weight:bold; font-family: 'Roboto'}
+#menu a:hover, #menu .active a {margin-top: -4px;opacity: 1.0;}
 /* Content */
 #content {width:980px;margin:0 auto;padding:20px 0 0 0; position: relative;}
 /* Column One */
@@ -46,7 +46,7 @@ p {font-size: 115%;text-align:left; line-height: 30px;}
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #D0D0D3;
+  background-color: #f0f0f0;
   border: 1px solid #ccc;
   line-height: 36px;
   -webkit-border-radius: 15px;

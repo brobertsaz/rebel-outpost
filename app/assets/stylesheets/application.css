@@ -14,8 +14,8 @@
  */
 #social {
   position: absolute;
-  top: 20px;
-  right: 320px;
+  top: 12px;
+  right: 312px;
 }
 
 #social ul {
@@ -54,4 +54,19 @@ p.lead {
   margin-bottom: 48px;
   font-size: 20px;
   text-align: justify;
+}
+
+body {
+  background-color: #ccc;
+/*  background: url(/assets/web-puzzle.jpg) no-repeat center center fixed;*/
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+.inner_copy {
+  position: relative;
+  height: 100%;
 }
