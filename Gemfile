@@ -25,6 +25,7 @@ gem 'google-analytics-rails'
 gem 'tinymce-rails'
 
 
+
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
 gem 'bson_ext'
 

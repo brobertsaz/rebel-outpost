@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-body {margin:0;padding:0;background:#e2e2e2 url(Minimalist-Wall.jpg) repeat center center fixed;font:large normal small 'Roboto',Arial,Helvetica,sans-serif;color:#222}
+body {margin:0;padding:0;background:#e2e2e2;font:large normal small 'Roboto',Arial,Helvetica,sans-serif;color:#222}
+/*body {margin:0;padding:0;background:#e2e2e2 url(rockwall.png) repeat center center fixed;font:large normal small 'Roboto',Arial,Helvetica,sans-serif;color:#222}*/
 a {color:#F70619}
 a:hover {text-decoration:none;color:#333;}
 h1, h2 {color: #333; font-family: 'Roboto'; font-size: 24px; text-align: center;}
@@ -15,7 +16,7 @@ p {font-size: 115%;text-align:left; line-height: 30px;}
 #menu {position: absolute; margin-top: -73px;right: 312px;}
 #menu ul {margin:0;padding:154px 0 0 0;list-style:none}
 #menu li {display:inline}
-#menu a {color: #fff;opacity: 0.9;display:block;float:left;padding:5px 16px;text-decoration:none;font-size:18px;font-weight:bold; font-family: 'Roboto'}
+#menu a {color: #fff;opacity: 0.9;display:block;float:left;padding:5px 16px;text-decoration:none;font-size:16px;font-weight:bold; font-family: 'Roboto'}
 #menu a:hover, #menu .active a {margin-top: -4px;opacity: 1.0;}
 /* Content */
 #content {width:980px;margin:0 auto;padding:20px 0 0 0; position: relative;}

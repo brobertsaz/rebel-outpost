@@ -24,17 +24,19 @@
               = link_to 'Services', :services
             %li
               = link_to 'Process', :process
+            %li
+              = link_to 'Contact Us', :contact_us
         = render 'layouts/social'
 
 
     #content
       .inner_copy
         = yield
-    %br
-    #footer
-      .center
-        %p
-          Rebel Outpost, LLC &copy; 2013 &nbsp &nbsp &nbsp | &nbsp &nbsp &nbsp Tel: (480) 251-5162 &nbsp &nbsp &nbsp | &nbsp &nbsp &nbsp Glendale, AZ
+      %br
+      #footer
+        .center
+          %p
+            Rebel Outpost, LLC &copy; 2013 &nbsp &nbsp &nbsp | &nbsp &nbsp &nbsp Tel: (480) 251-5162 &nbsp &nbsp &nbsp | &nbsp &nbsp &nbsp Glendale, AZ
 
 
 

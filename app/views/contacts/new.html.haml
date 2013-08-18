@@ -1,0 +1,27 @@
+%h2
+  Contact Us
+
+%p
+  If you would like to find out more about what we can do to help you with your web application needs, please
+  %a{href: 'mailto:bob@rebel-outpost.com'}>
+    email us,
+  call us at (480) 251-5162, or fill out our form.
+%br
+%br
+
+.contact_us_form
+  = simple_form_for @contact do |f|
+    = f.input :name
+    = f.input :email
+    = f.input :phone
+    = f.input :company
+    = f.input :message, as: :text, placeholder: 'Tell us a little bit about what you are looking to do'
+    %p
+      = f.button :submit, "Submit", class: 'btn'
+
+
+
+%br
+%br
+%br
+%br

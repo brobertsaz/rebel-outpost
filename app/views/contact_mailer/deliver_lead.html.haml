@@ -1,0 +1,8 @@
+%h1
+  New Lead
+%p
+  = @contact.name unless @contact.name == nil
+  = @contact.email unless @contact.email == nil
+  = @contact.phone unless @contact.phone == nil
+  = @contact.company unless @contact.company == nil
+  = @contact.message unless @contact.message == nil
