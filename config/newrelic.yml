@@ -5,7 +5,7 @@
 #
 # Generated September 24, 2013
 #
-# This configuration file is custom generated for Rebel Outpost
+# This configuration file is custom generated for Rebel Outpost_1
 
 
 # Here are the settings that are common to all environments
@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: 'cfe4ef029ce8542fde38c7a15f5921e829226d80'
+  license_key: '004091af0ff52063fc0578de51e117b1b3595495'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
