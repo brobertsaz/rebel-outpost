@@ -23,6 +23,7 @@ gem 'simple_form'
 gem 'twitter-bootstrap-rails'
 gem 'google-analytics-rails'
 gem 'tinymce-rails'
+gem 'newrelic_rpm'
 
 
 

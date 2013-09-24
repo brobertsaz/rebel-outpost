@@ -10,23 +10,22 @@
     = csrf_meta_tags
     = analytics_init if Rails.env.production?
   %body
-    / = render 'layouts/connect_top_panel'
+
     #header
-      .contents
-        #logo
-          = link_to image_tag('ro_logo_wide2.png'), root_path
-          %h2 Web Development Done Right
-        #menu
-          %ul
-            %li
-              = link_to 'Home', :home
-            %li
-              = link_to 'Services', :services
-            %li
-              = link_to 'Process', :process
-            %li
-              = link_to 'Contact Us', :contact_us
-        = render 'layouts/social'
+      #logo
+        = link_to image_tag('ro_logo_wide2.png'), root_path
+        %h2 Web Development Done Right
+      #menu
+        %ul
+          %li
+            = link_to 'Home', :home
+          %li
+            = link_to 'Services', :services
+          %li
+            = link_to 'Process', :process
+          %li
+            = link_to 'Contact Us', :contact_us
+      = render 'layouts/social'
 
 
     #content
