@@ -1,8 +1,12 @@
-%h1
-  New Lead
+%h2
+  New RO Site Lead
 %p
-  = @contact.name unless @contact.name == nil
-  = @contact.email unless @contact.email == nil
-  = @contact.phone unless @contact.phone == nil
-  = @contact.company unless @contact.company == nil
-  = @contact.message unless @contact.message == nil
+  Contact Name: #{@contact.name unless @contact.name == nil}
+%p
+  Contact Email: #{@contact.email unless @contact.email == nil}
+%p
+  Phone: #{@contact.phone unless @contact.phone == nil}
+%p
+  Company: #{@contact.company unless @contact.company == nil}
+%p
+  Message: #{@contact.message unless @contact.message == nil}
